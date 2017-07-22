@@ -1,0 +1,11 @@
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\bin\Debug\BITS_Nightly.exe.config
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\bin\Debug\BITS_Nightly.exe.manifest
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\bin\Debug\BITS_Nightly.application
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\bin\Debug\BITS_Nightly.exe
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\bin\Debug\BITS_Nightly.pdb
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\obj\Debug\BITS_Nightly.TrustInfo.xml
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\obj\Debug\BITS_Nightly.exe.manifest
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\obj\Debug\BITS_Nightly.application
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\obj\Debug\BITS_Nightly.exe
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\obj\Debug\BITS_Nightly.pdb
+e:\documents\visual studio 2015\Projects\BITS_Nightly\BITS_Nightly\obj\Debug\BITS_Nightly.csprojResolveAssemblyReference.cache

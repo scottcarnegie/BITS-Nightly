@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+  </startup>
+  <appSettings>
+    
+    <!--General Settings-->
+    <!--If folder level copy is set as true, the entire folder will be copied.-->
+    <add key="FolderLevelCopy" value="false" />
+    <add key="FolderLocation" value="E:\Documents\Tidbytes\Test Files" />
+    <add key="Filename" value="Test Database 1.accdb" />
+    <add key="BackupLocation" value="E:\Google Drive\Test DB Backups" />
+    
+    <!--Error Email Settings - False value will disable -->
+    <add key="EnableErrorEmail" value="true" />
+    
+    <!--Log Updates - Select one of the following values:
+                  0 = Never
+                  1 = Always
+                  2 = Weekly
+                  3 = Monthly-->
+    <add key="SendLogEmails" value="3" />
+   
+    <!--SMTP Server Configuration Settings -->
+    <add key="SMTPServerUrl" value="smtp.gmail.com" />
+    <add key="SMTPServerPort" value="587" />
+    <add key="SMTPServerUsername" value="bits.nightly@gmail.com" />
+    <add key="SMTPServerPassword" value="BITSnightly2016" />
+    
+    <!--Email Settings-->
+    <!--Multiple recipient emails may be entered separated my commas-->
+    <add key="EmailTo" value="scottcarnegie@hotmail.com" />
+    <add key="EmailFrom" value="BITS.Nightly@gmail.com" />
+    <add key="EmailSubject_Log" value="BITS Nightly - Backup Log" />
+    <add key="EmailSubject_Error" value="BITS Nightly - An Error Occurred" />
+    <add key="EmailTemplate_Log" value="E:\Documents\Tidbytes\Test Files\SummaryEmail.html" />
+    <add key="EmailTemplate_Error" value="E:\Documents\Tidbytes\Test Files\ErrorEmail.html" />
+
+    <!--DO NOT MODIFY-->
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+  </appSettings>
+  
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>
